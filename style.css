@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  background:linear-gradient(120deg, #00bae2,#d2fffc);
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  text-align: center;
+  
+}
+
+h1{
+  font-size: 100px;
+  color: white;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  border: none;
+  font-size: 25px;
+  color: white;
+  background: transparent;
+  justify-content: space-around;
+  border-radius: 3em;
+  box-shadow: 0px 8px 10px rgba(0,0, 0, .5);
+  
+}
+button:hover{
+  cursor: pointer;
+}
+
+ .start-but {
+  background-color:#53ca98;
+ }
+ .pause-but {
+  background-color: #aab7bf;
+ }
+.stop-but {
+  background-color: #ff6961;
+}
